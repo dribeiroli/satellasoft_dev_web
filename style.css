@@ -1,0 +1,17 @@
+*{
+    padding: 0;    
+}
+.menu{
+    display: flex;    
+    list-style-type: none;    
+}
+
+.seletoresMenu{
+    margin-right: 5px;
+}
+.negrito{
+    font-weight: bold;
+}
+.color{
+    color:red;
+}
