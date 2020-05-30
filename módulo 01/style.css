@@ -9,6 +9,10 @@
 .seletoresMenu{
     margin-right: 5px;
 }
+
+.navegador{
+    color: blueviolet;
+}
 .negrito{
     font-weight: bold;
 }
