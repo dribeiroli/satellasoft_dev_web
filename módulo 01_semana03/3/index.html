@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <body>
+        <img class="imgLogo"  src='../images/logo1.png' alt="logo empresa">
+
+        <nav class="menuBar">
+            <ul class="menu">
+                <li class="menuTopico"><a href="../index.html">Home</a></li>
+                <li class="menuTopico"><a href="../2/index.html">Quem Somos</a></li>
+                <li class="menuTopico"><a href="./index.html">Contato</a></li>
+            </ul>
+        </nav>
+    </body>
+    <main>
+        <div class="container3">
+
+            <div class="wrapper">
+                <section>
+                    <h2>Contato</h2>
+                </section>
+                <div class="form">
+                    <form action="registra.php" method="post">
+
+                        <div class="colunas">
+
+                            <div class="coluna">
+                                <div><label for="nome">Nome:</label>
+                                    <input type="text" id="nome">
+                                </div>
+
+
+                                <div><label for="txtSenha">Senha:</label>
+                                    <input type="password" id="txtSenha">
+                                </div>
+
+                                <div><label for="state">Estado:</label>
+                                    <select id="state" name="state">
+                                        <option value="saopaulo">São Paulo </option>
+                                        <option value="riodejaneiro">Rio de Janeiro</option>
+                                        <option value="curitiba">Curitiba</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="coluna">
+                                <div><label for="txtEmail">E-mail:</label>
+                                    <input type="email" id="txtEmail">
+                                </div>
+
+                                <div>
+                                    <p>Sexo</p>
+                                    <div class="radioButtons">
+
+                                        <label class ="btnRadio"><input type="radio" id="male" name="gender" value="male">Homem</label>
+                                        <label class ="btnRadio"><input type="radio" id="female" name="gender" value="female" checked>Mulher </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <label for="textMsg">Fale um pouco sobre você</label>
+                            <textarea name="message" id="textMsg" cols="30" rows="4" placeholder="texto"></textarea> <br>
+                            <button class="btnContact">Enviar</button>
+                        </div>
+
+                    </form>
+
+                    <div class="colunaLateral">
+                        <h2>Dicas</h2>
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis. Manduma pindureta quium dia nois paga. Tá deprimidis, eu conheço
+                            uma cachacis que pode alegrar sua vidis. Casamentiss faiz malandris se pirulitá.</p>
+                    </div>
+                </div>
+
+                </section>
+
+            </div>
+
+
+
+
+
+
+
+
+            </section>
+
+        </div>
+
+
+
+    </main>
+
+</html>
