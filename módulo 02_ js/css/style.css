@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.max-width {
+    max-width: 1200px;
+    width: 100%;
+}
+
+header {
+    background: #0288D1;
+    border-bottom: 1px solid #B3E5FC;
+    ;
+}
+
+header img {
+    max-width: 125px;
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    background: #FF5252;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+    transition: all .3s
+}
+
+nav ul li a:hover {
+    color: #757575;
+    background-color: bisque;
+}
+
+#form {
+    margin-top: 20px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form h1 {
+    color: #757575;
+}
+
+#form label {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: block;
+}
+
+#form #erros ul {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+#form #erros .erro {
+    border: 1px solid brown;
+    margin-bottom: 2px;
+    padding: 5px;
+    width: 300px;
+}
+
+#form .nameError, .emailError, .errPass, .errDate, .errGender{
+    border: 1px solid red;
+    box-shadow: 0 0 3px #CC0000;
+}
+
+#form label textarea {
+    width: 500px;
+    height: 20px;
+}
+
+button {
+    float: right;
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #BDBDBD;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    margin-top: 2px;
+    color: white;
+}
+
+.erro {
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(236, 15, 15);
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/unsemantic-grid-responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/palette.css">
+
+
+    <title>Contato</title>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="max-width">
+            <a href="index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+                    alt="Logo do site">
+            </a>
+
+        </div>
+        <nav>
+            <div class="max-width">
+                <ul>
+                    <li>
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="index.html"> Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="form">
+
+        <div class="max-width">
+            <div class="grid-50">
+
+                <div class="grid-100">
+                    <h1> Contato</h1>
+                </div>
+                <!-- Linha 1 -->
+                <form name="form1" id="register" action="#">
+
+                    <div class="grid-50">
+                        <label for="txtName">Nome:</label>
+                        <input type="text" id="txtName" name="nome">
+
+                    </div>
+
+                    <div class="grid-50">
+                        <label for="txtEmail">Email</label>
+                        <input type="email" id="txtEmail" name="email">
+                    </div>
+
+                    <!-- Linha 2 -->
+                    <div class="grid-50">
+                        <label for="txtPassword">Senha</label>
+                        <input type="password" id="txtPassword" name="senha1">
+                    </div>
+
+                    <div class="grid-50">
+                        <label for="cnfPassword">Confirmar senha</label>
+                        <input type="password" id="cnfPassword" name="senha2">
+                    </div>
+                    <!--Linha 3-->
+
+                    <div class="grid-50">
+                        <label for="gender">Sexo</label>
+                        <select name="gender" id="gender" >
+                            <option value ='selecione'></option>
+                            <option value="m">Masculino</option>
+                            <option value="f">Feminino</option>
+                        </select>
+
+                    </div>
+
+                    <div class="grid-50"> <label for="dateTime">Data de Nascimento</label>
+                        <input type="text" id="dateTime" placeholder="dd/mm/yyyy">
+                    </div>
+
+
+                    <div class="grid-100">
+                        <label for="txtSobre">Fale sobre você</label>
+                        <textarea name="txtSobre" id="txtSobre" cols="30" rows="10"> </textarea>
+
+
+                    </div>
+
+
+
+                    <div class="grid-100">
+
+
+                        <div id="erros" class="grid-50">
+                            <ul>
+                                <li class="erro" id="erroMessage1"> </li>                                
+                                <li class="erro" id="erroMessage2"> </li>
+                                <li class="erro" id="erroMessage3"> </li>
+                                <li class="erro" id="erroMessage4"> </li>
+                                <li class="erro" id="erroMessage5"> </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="grid-50">
+                            <button type="submit" id="btn">Enviar</button>
+                        </div>
+
+
+
+                    </div>
+                </form>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <script src="./ckeditor/ckeditor.js"></script>
+    <script src="javascript/index.js"></script>
+    <script>CKEDITOR.replace('txtSobre')</script>
+</body>
+
+</html>
